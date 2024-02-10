@@ -1,0 +1,8 @@
+{
+  "name": "to-do-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/to-do-app/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
