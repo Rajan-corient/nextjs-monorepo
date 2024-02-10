@@ -7,11 +7,11 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: {
-        default: 'nx run to-do-app:serve',
-        production: 'nx run to-do-app:preview',
+        default: 'nx run pokemon-app:serve',
+        production: 'nx run pokemon-app:preview',
       },
-      ciWebServerCommand: 'nx run to-do-app:serve-static',
+      ciWebServerCommand: 'nx run pokemon-app:serve-static',
     }),
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:4200',
   },
 });

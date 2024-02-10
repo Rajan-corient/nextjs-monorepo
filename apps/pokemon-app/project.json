@@ -1,0 +1,8 @@
+{
+  "name": "pokemon-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/pokemon-app/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
